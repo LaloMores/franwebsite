@@ -73,6 +73,8 @@ gulp.task('copy', function() {
             '!node_modules/font-awesome/*.json'
         ])
         .pipe(gulp.dest('vendor/font-awesome'))
+    gulp.src(['node_modules/font-flaticon/*'])
+    .pipe(gulp.dest('vendor/font-flaticon'))
 })
 
 // Run everything

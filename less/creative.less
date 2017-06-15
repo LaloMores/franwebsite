@@ -165,9 +165,9 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/header-min.png');
     text-align: center;
-    color: white;
+    color: @theme-primary;
     .header-content {
         position: relative;
         text-align: center;
@@ -186,7 +186,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: fade(white, 70%);
+                color: fade(black, 70%);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -196,7 +196,7 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 20%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);

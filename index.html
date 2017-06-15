@@ -12,10 +12,13 @@
     <title>Creative - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="vendor/font-flaticon/flaticon.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
@@ -43,23 +46,22 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Quién soy</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Qué hago</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Proyectos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -71,10 +73,9 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
-                <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <h1 id="homeHeading">Fran Malbrán</h1>
+                <p>Compositor / Cantautor</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Quién soy</a>
             </div>
         </div>
     </header>
@@ -83,10 +84,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">Mini bio</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded">
+                        En casa había un piano. Un padre coral. Una madre libre de prejuicios académicos. Una hermana multi-artista y un hermano que tocaba los Beatles. Variedad.
+                        Mis primeras composisiciones fueron canciones de protesta cuando una promesa no se cumplía.
+                        A los 8 estudié Cello por unos años y a los 12 empecé a estudiar piano y teoría musical con Juan Carlos Ciallella: mi formación musical más importante.
+                        Tuve las bandas de rigor: Rock, Folclore, Música Brasilera. Aunque de fondo siempre estuvieron mis canciones con piano o guitarra.
+                        Ahora ellas tomaron protagonismo y se convirtieron en mi primer disco de cantautor: "Náufrago".
+                        Mientras tanto empecé a escribir música para Teatro y Danza, cosa que ahora me apasiona.
+                        Mi siguiente objetivo? El cine.
+                    </p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Cosas que hago</a>
                 </div>
             </div>
         </div>
@@ -96,39 +105,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Cosas que hago</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-3 col-lg-offset-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <!--<i class="fa fa-4x fa-music text-primary sr-icons"></i>-->
+                        <i class="fa flaticon-singer text-primary sr-icons"></i>
+                        <h3>Canciones</h3>
+                        <p class="text-muted">Creo canciones. Canto. Toco el piano. A veces la guitarra. Grabé un disco que se está masterizando. Novedades <a href="">aquí</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <i class="fa flaticon-music-7 text-primary sr-icons"></i>
+                        <h3>Música original</h3>
+                        <p class="text-muted">Compongo música original para teatro, danza y cine. Portfolio <a href="">aquí</a>.</p>
                     </div>
                 </div>
             </div>
@@ -136,18 +132,29 @@
     </section>
 
     <section class="no-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Proyectos</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <a href="https://youtu.be/oe7vXPWbo9A" class="portfolio-box">
+                        <!-- <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oe7vXPWbo9A"></iframe>
+                        </div>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Canciones
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Náufrago
                                 </div>
                             </div>
                         </div>
@@ -159,10 +166,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Música original
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Loop (Danza)
                                 </div>
                             </div>
                         </div>
@@ -174,10 +181,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Música original
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    De cuentos impertinentes y otras especias insolentes (Teatro)
                                 </div>
                             </div>
                         </div>
@@ -189,10 +196,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Música original
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Oblitus (Danza)
                                 </div>
                             </div>
                         </div>
@@ -204,25 +211,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Música original
                                 </div>
                                 <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
+                                    Principios y principitos (Musical)
                                 </div>
                             </div>
                         </div>
@@ -235,8 +227,6 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
             </div>
         </div>
     </aside>
@@ -244,32 +234,56 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                <div class="col-lg-4 col-lg-offset-4 text-center">
+                    <h2 class="section-heading">Contacto</h2>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-2 text-center">
+                    <a href="https://www.twitter.com/fgmalbran">
+                        <i class="fa fa-twitter fa-3x sr-contact"></i>
+                    </a>
                 </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                <div class="col-lg-2 text-center">
+                    <a href="https://www.soundcloud.com/franmalbran">
+                        <i class="fa fa-soundcloud fa-3x sr-contact"></i>
+                    </a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="https://www.facebook.com/franmalbran">
+                        <i class="fa fa-facebook fa-3x sr-contact"></i>
+                    </a>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="mailto:fgmalbran@gmail.com">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+    <hr>
+    <footer>
+    <div class="text-center">
+        <p>Esta web se construyó a partir del template "Creative", de startbootstrap</p>
+        <p>Para los íconos músicales, usé las fuentes generadas por <a href="http://www.flaticon.com">flaticon.com</a>.
+        bajo <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="001-music-9" href="http://www.freepik.com">Freepik</a>, <a data-file="002-music-8" href="http://www.flaticon.com/authors/epiccoders">EpicCoders</a></p>
+    </div>
+    </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!--     <script src="vendor/jquery/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <!-- <script src="vendor/scrollreveal/scrollreveal.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.5/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Theme JavaScript -->
