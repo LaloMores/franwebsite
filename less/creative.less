@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    .serif-font;
+    font-family: @theme-paragraphs;
 }
 
 hr {
@@ -37,11 +37,13 @@ h3,
 h4,
 h5,
 h6 {
-    .sans-serif-font;
+    font-family: @theme-fonts;
+    font-weight: bold;
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: normal;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -57,6 +59,15 @@ p {
 
 .text-faded {
     color: fade(white, 70%);
+}
+
+.text-faded-black {
+    color: fade(black, 70%);
+}
+
+.text-footer {
+    color: fade(black, 70%);
+    font-size: 16px;
 }
 
 section {
@@ -76,12 +87,12 @@ aside {
 .navbar-default {
     background-color: white;
     border-color: fade(@gray-darker, 5%);
-    .sans-serif-font;
+    font-family: @theme-fonts;
     .transition-all;
     .navbar-header .navbar-brand {
         color: @theme-primary;
-        .sans-serif-font;
-        font-weight: 700;
+        font-family: @theme-fonts;
+        font-weight: bold;
         text-transform: uppercase;
         &:hover,
         &:focus {
@@ -89,8 +100,8 @@ aside {
         }
     }
     .navbar-header .navbar-toggle {
-        font-weight: 700;
-        font-size: 12px;
+        font-weight: bold;
+        font-size: 18px;
         color: @gray-darker;
         text-transform: uppercase;
     }
@@ -99,8 +110,8 @@ aside {
             > a,
             > a:focus {
                 text-transform: uppercase;
-                font-weight: 700;
-                font-size: 13px;
+                font-weight: bold;
+                font-size: 18px;
                 color: @gray-darker;
                 &:hover {
                     color: @theme-primary;
@@ -206,7 +217,11 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 h1 {
-                    font-size: 50px;
+                    font-size: 90px;
+                }
+                h4 {
+                    font-size: 32px;
+                    font-weight: bold;
                 }
                 p {
                     font-size: 18px;
@@ -258,9 +273,12 @@ header {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            .project-category,
+            .project-category{
+                font-family: @theme-fonts;
+                padding: 0 15px;
+            }
             .project-name {
-                .sans-serif-font;
+                font-family: @theme-paragraphs;
                 padding: 0 15px;
             }
             .project-category {
@@ -321,7 +339,8 @@ header {
 }
 
 .btn {
-    .sans-serif-font;
+    font-size: 18px;
+    font-family: @theme-fonts;
     border: none;
     border-radius: 300px;
     font-weight: 700;
