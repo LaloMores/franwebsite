@@ -173,9 +173,10 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
     .background-cover;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url('../img/header-min.png');
     text-align: center;
     color: @theme-primary;
@@ -204,10 +205,10 @@ header {
         }
     }
     @media (min-width: 768px) {
-        min-height: 100%;
+        min-height: 500px;
         .header-content {
             position: absolute;
-            top: 20%;
+            top: 43%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);

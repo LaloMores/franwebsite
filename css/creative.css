@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 html,
@@ -158,12 +158,12 @@ aside {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-image: url('../img/header-min.png');
   text-align: center;
   color: #F05F40;
@@ -192,11 +192,11 @@ header .header-content .header-content-inner p {
 }
 @media (min-width: 768px) {
   header {
-    min-height: 100%;
+    min-height: 500px;
   }
   header .header-content {
     position: absolute;
-    top: 20%;
+    top: 43%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
